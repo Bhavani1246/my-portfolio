@@ -1,0 +1,107 @@
+*{
+    font-family: monospace; 
+}
+body{
+    font-size: 16px; ;
+    margin: 0;
+    background-color: rgba(137, 43, 226, 0.125);
+    text-align: center;
+}
+header{
+    height: 100vh;
+    color: beige;
+    background-color: rgba(151, 135, 222, 0.575);
+    text-align: center;
+    display: flex;                 
+    flex-direction: column;       
+    align-items: center;          
+    justify-content: center;      
+    gap: 20px;    
+    
+}
+h1{
+    font-size: 50px;
+    color:rgb(151, 135, 222);
+}
+header h1{
+    color: aliceblue;
+
+    margin: 0;
+}
+
+.button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border: radius 10px;
+    cursor: pointer;
+
+}
+.button:hover{
+    color: white;
+    background-color: brown;
+}
+img{
+    height: 200px;
+}
+main{
+    padding: 20px;
+    text-align: center;
+
+}
+section{
+    height: 100vh;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border: radius 10px;
+    cursor: pointer;
+    color:white;
+    background-color: aqua;
+
+}
+.submit:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 211, 59);
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    height: 25px;
+}
+.fixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius:  50%;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(255, 170, 0);
+
+}
+.fixedButton:hover {
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+footer{
+    height:100px;
+    background-color: black;
+    color:lightgrey;
+
+}
